@@ -34,27 +34,28 @@
 
     <section id="booking">
         <h2>احجز موعدك</h2>
-        <form id="bookingForm">
-            <label>الاسم:</label>
-            <input type="text" name="name" required>
+     <form id="bookingForm" action="book.php" method="POST">
+    <label>الاسم:</label>
+    <input type="text" name="name" required>
 
-            <label>رقم الهاتف:</label>
-            <input type="tel" name="phone" required>
+    <label>رقم الهاتف:</label>
+    <input type="tel" name="phone" required>
 
-            <label>الخدمة المطلوبة:</label>
-            <select name="service" required>
-                <option value="">اختر الخدمة</option>
-                <option>علاج حب الشباب</option>
-                <option>إزالة التصبغات</option>
-                <option>حقن البوتكس والفيلر</option>
-                <option>علاج تساقط الشعر</option>
-            </select>
+    <label>الخدمة المطلوبة:</label>
+    <select name="service" required>
+        <option value="">اختر الخدمة</option>
+        <option>علاج حب الشباب</option>
+        <option>إزالة التصبغات</option>
+        <option>حقن البوتكس والفيلر</option>
+        <option>علاج تساقط الشعر</option>
+    </select>
 
-            <label>التاريخ:</label>
-            <input type="date" name="date" required>
+    <label>التاريخ:</label>
+    <input type="date" name="date" required>
 
-            <button type="submit">إرسال</button>
-        </form>
+    <button type="submit">إرسال</button>
+</form>
+
     </section>
 
    
