@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة الجلدية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>عيادة الجلدية</h1>
+        <nav>
+            <a href="#about">عن العيادة</a>
+            <a href="#services">الخدمات</a>
+            <a href="#booking">حجز موعد</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>عن العيادة</h2>
+        <p>نحن متخصصون في علاج أمراض الجلد والشعر وتجميل البشرة باستخدام أحدث الأجهزة الطبية.</p>
+        <img src="1505-قسم_الجلدية.jpg" alt="عيادة الجلدية">
+    </section>
+
+    <section id="services">
+        <h2>الخدمات</h2>
+        <ul>
+            <li>علاج حب الشباب</li>
+            <li>إزالة التصبغات</li>
+            <li>حقن البوتكس والفيلر</li>
+            <li>علاج تساقط الشعر</li>
+        </ul>
+    </section>
+
+    <section id="booking">
+        <h2>احجز موعدك</h2>
+        <form id="bookingForm">
+            <label>الاسم:</label>
+            <input type="text" name="name" required>
+
+            <label>رقم الهاتف:</label>
+            <input type="tel" name="phone" required>
+
+            <label>الخدمة المطلوبة:</label>
+            <select name="service" required>
+                <option value="">اختر الخدمة</option>
+                <option>علاج حب الشباب</option>
+                <option>إزالة التصبغات</option>
+                <option>حقن البوتكس والفيلر</option>
+                <option>علاج تساقط الشعر</option>
+            </select>
+
+            <label>التاريخ:</label>
+            <input type="date" name="date" required>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
